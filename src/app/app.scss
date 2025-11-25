@@ -1,0 +1,48 @@
+/* src/app/app.scss */
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.form-section,
+.list-section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-row {
+  margin-bottom: 0.5rem;
+}
+
+input[type='text'],
+input[type='date'] {
+  margin-left: 0.5rem;
+}
+
+button {
+  margin-top: 0.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+}
+
+.error {
+  color: red;
+  margin-top: 0.5rem;
+}
