@@ -15,7 +15,8 @@ FROM nginx:alpine
 RUN rm -rf /usr/share/nginx/html/*
 
 # ⬇⬇ THIS is the right path for YOUR project
-COPY --from=build /app/dist/days-alive-ui-src /usr/share/nginx/html
+COPY --from=build /app/dist/days-alive-ui-src/browser /usr/share/nginx/html
+
 
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
